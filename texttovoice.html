@@ -1,0 +1,9 @@
+<html>
+    <script>
+        function say(text){
+            let text_speak = new SpeechSynthesisUtterance(text);
+            window.speechSynthesis.speak(text_speak);
+        }
+        say("Hello How Are You")
+    </script>
+</html>
